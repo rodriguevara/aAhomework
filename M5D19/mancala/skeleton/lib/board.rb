@@ -57,7 +57,7 @@ class Board
       return :prompt
     elsif @cups[pos].length > 1
       return pos
-    elsif @cups[pos].length <= 1
+    else
       return :switch
     end
   end
